@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.ministrycontainer{
+    display:grid ;
+    grid-template-rows: 100px 100px 500px;
+    grid-gap: 2px;
+    margin-top: 10px;
+}
+
+.mborder{
+    border: 1px solid black;
+}
+
+.mimg{
+    background-image: url('https://scholarships.gov.in/public/Content/img/slider14.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    
+}
+
+.mph{
+    display: flex;
+    justify-content: center;
+}
+.mph1{
+    margin-top: 20px;
+    font-family: "Playfair Display SC";
+
+}
+
+.fside{
+    font-family: "Bree Serif";
+}
+
+.midd{
+    text-align: center;
+    font-family: "Bree Serif";
+
+    
+}
